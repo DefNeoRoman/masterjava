@@ -8,7 +8,7 @@ public class Solution1 {
     private static final int MATRIX_SIZE = 10;
     //всегда умножаем две квадратные матрицы, строку на столбец, результаты складываем это будет один элемент, проверки не требуется
 
-    @Benchmark
+
     public  int [][] multiply(int[][] matrixA, int[][] matrixB ){
         int [][] result = new int [matrixA.length][matrixB.length];
         for (int i=0; i<matrixA.length; i++){
